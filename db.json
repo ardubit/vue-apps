@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Pants",
+        "inStock": false,
+        "size": "S",
+        "quantity": 1
+    },
+    {
+        "id": 2,
+        "name": "Chinos",
+        "inStock": true,
+        "size": "M",
+        "quantity": 1
+    },
+    {
+        "id": 3,
+        "name": "Jeanses",
+        "inStock": false,
+        "size": "S",
+        "quantity": 1
+    },
+    {
+        "id": 4,
+        "name": "Khakis",
+        "inStock": true,
+        "size": "XL",
+        "quantity": 1
+    }
+]

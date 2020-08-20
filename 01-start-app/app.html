@@ -1,0 +1,23 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vue App</title>
+    <link rel="icon" href="../fav-01.svg" sizes="any" type="image/svg+xml">
+</head>
+<body>
+    <h1>Start App</h1>
+    <div id="app">
+        <h2>{{ product }} are in stock.</h2>
+        <p>Sizes:</p>
+        <ul>
+            <li v-for="size in sizes">
+                {{ size }}
+            </li>
+        </ul>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="start.js"></script>
+</body>
+</html>
